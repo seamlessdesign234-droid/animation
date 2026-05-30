@@ -1,4 +1,5 @@
 node_modules/
 .remotion/
 *.log
-out/
+out/*
+!out/RcbVsGt.mp4
