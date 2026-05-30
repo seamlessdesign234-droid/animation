@@ -3,6 +3,7 @@ import {AiAdoption} from './compositions/AiAdoption';
 import {MapTrip} from './compositions/MapTrip';
 import {SleepReel} from './compositions/SleepReel';
 import {CoffeeExplainer} from './compositions/CoffeeExplainer';
+import {SalaryStory, SALARY_STORY_DURATION} from './compositions/SalaryStory';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -35,6 +36,14 @@ export const RemotionRoot: React.FC = () => {
 				id="CoffeeExplainer"
 				component={CoffeeExplainer}
 				durationInFrames={600}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="SalaryStory"
+				component={SalaryStory}
+				durationInFrames={SALARY_STORY_DURATION}
 				width={1920}
 				height={1080}
 				fps={30}
