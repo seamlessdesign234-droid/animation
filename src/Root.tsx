@@ -10,6 +10,7 @@ import {S18_YearTen} from './scenes/S18_YearTen';
 import {S22_CompoundCurve} from './scenes/S22_CompoundCurve';
 import {S26_DavidDoublesGrinds} from './scenes/S26_DavidDoublesGrinds';
 import {S30_TheReveal} from './scenes/S30_TheReveal';
+import {S39_Sarah} from './scenes/S39_Sarah';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -98,6 +99,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S30TheReveal"
 				component={S30_TheReveal}
 				durationInFrames={1530}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S39Sarah"
+				component={S39_Sarah}
+				durationInFrames={3510}
 				width={1920}
 				height={1080}
 				fps={30}
