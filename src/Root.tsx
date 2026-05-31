@@ -11,6 +11,7 @@ import {S22_CompoundCurve} from './scenes/S22_CompoundCurve';
 import {S26_DavidDoublesGrinds} from './scenes/S26_DavidDoublesGrinds';
 import {S30_TheReveal} from './scenes/S30_TheReveal';
 import {S39_Sarah} from './scenes/S39_Sarah';
+import {S47_ThreeBars} from './scenes/S47_ThreeBars';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -107,6 +108,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S39Sarah"
 				component={S39_Sarah}
 				durationInFrames={3510}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S47ThreeBars"
+				component={S47_ThreeBars}
+				durationInFrames={930}
 				width={1920}
 				height={1080}
 				fps={30}
