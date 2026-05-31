@@ -334,7 +334,7 @@ export const S14_YearsOneToFive: React.FC = () => {
 	// Marcus's side opacity: dims slightly in B3 (doubt), bright otherwise; cools a touch in B6/B7.
 	const marcusOpacity = interpolate(
 		frame,
-		[B3_START, B3_START + 30, B3_END, B3_END + 30, B6_START, B6_END, B7_START],
+		[B3_START, B3_START + 30, B3_END, B3_END + 30, B6_START, B6_END, B7_END],
 		[1, 0.7, 0.7, 0.95, 0.95, 0.85, 0.8],
 		clamp,
 	);
