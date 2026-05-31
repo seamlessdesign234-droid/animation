@@ -7,6 +7,7 @@ import {S07_OutcomeTeaser} from './scenes/S07_OutcomeTeaser';
 import {S08_MeetTheTwo} from './scenes/S08_MeetTheTwo';
 import {S14_YearsOneToFive} from './scenes/S14_YearsOneToFive';
 import {S18_YearTen} from './scenes/S18_YearTen';
+import {S22_CompoundCurve} from './scenes/S22_CompoundCurve';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -71,6 +72,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S18YearTen"
 				component={S18_YearTen}
 				durationInFrames={1260}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S22CompoundCurve"
+				component={S22_CompoundCurve}
+				durationInFrames={1800}
 				width={1920}
 				height={1080}
 				fps={30}
