@@ -12,6 +12,7 @@ import {S26_DavidDoublesGrinds} from './scenes/S26_DavidDoublesGrinds';
 import {S30_TheReveal} from './scenes/S30_TheReveal';
 import {S39_Sarah} from './scenes/S39_Sarah';
 import {S47_ThreeBars} from './scenes/S47_ThreeBars';
+import {S50_Coda} from './scenes/S50_Coda';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -116,6 +117,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S47ThreeBars"
 				component={S47_ThreeBars}
 				durationInFrames={930}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S50Coda"
+				component={S50_Coda}
+				durationInFrames={2070}
 				width={1920}
 				height={1080}
 				fps={30}
