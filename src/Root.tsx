@@ -8,6 +8,7 @@ import {S08_MeetTheTwo} from './scenes/S08_MeetTheTwo';
 import {S14_YearsOneToFive} from './scenes/S14_YearsOneToFive';
 import {S18_YearTen} from './scenes/S18_YearTen';
 import {S22_CompoundCurve} from './scenes/S22_CompoundCurve';
+import {S26_DavidDoublesGrinds} from './scenes/S26_DavidDoublesGrinds';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -80,6 +81,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S22CompoundCurve"
 				component={S22_CompoundCurve}
 				durationInFrames={1800}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S26DavidDoublesGrinds"
+				component={S26_DavidDoublesGrinds}
+				durationInFrames={2250}
 				width={1920}
 				height={1080}
 				fps={30}
