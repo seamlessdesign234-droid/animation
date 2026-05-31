@@ -6,6 +6,7 @@ import {CoffeeExplainer} from './compositions/CoffeeExplainer';
 import {S07_OutcomeTeaser} from './scenes/S07_OutcomeTeaser';
 import {S08_MeetTheTwo} from './scenes/S08_MeetTheTwo';
 import {S14_YearsOneToFive} from './scenes/S14_YearsOneToFive';
+import {S18_YearTen} from './scenes/S18_YearTen';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -62,6 +63,14 @@ export const RemotionRoot: React.FC = () => {
 				id="S14YearsOneToFive"
 				component={S14_YearsOneToFive}
 				durationInFrames={2400}
+				width={1920}
+				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="S18YearTen"
+				component={S18_YearTen}
+				durationInFrames={1260}
 				width={1920}
 				height={1080}
 				fps={30}
