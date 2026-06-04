@@ -8,14 +8,16 @@
     "render:all": "node scripts/render-all.mjs"
   },
   "dependencies": {
+    "@react-three/fiber": "8.17.10",
     "@remotion/cli": "4.0.290",
+    "@remotion/fonts": "^4.0.290",
+    "@remotion/google-fonts": "^4.0.290",
     "@remotion/three": "4.0.290",
     "@remotion/transitions": "4.0.290",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "remotion": "4.0.290",
-    "three": "0.171.0",
-    "@react-three/fiber": "8.17.10"
+    "three": "0.171.0"
   },
   "devDependencies": {
     "@remotion/renderer": "4.0.290",

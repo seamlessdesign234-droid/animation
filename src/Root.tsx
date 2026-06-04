@@ -3,6 +3,7 @@ import {AiAdoption} from './compositions/AiAdoption';
 import {MapTrip} from './compositions/MapTrip';
 import {SleepReel} from './compositions/SleepReel';
 import {CoffeeExplainer} from './compositions/CoffeeExplainer';
+import {CommentaryReel} from './compositions/CommentaryReel';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -37,6 +38,14 @@ export const RemotionRoot: React.FC = () => {
 				durationInFrames={600}
 				width={1920}
 				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="CommentaryReel"
+				component={CommentaryReel}
+				durationInFrames={675}
+				width={1080}
+				height={1920}
 				fps={30}
 			/>
 		</>
