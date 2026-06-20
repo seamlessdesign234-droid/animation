@@ -3,6 +3,9 @@
 export const FONT =
 	'-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
 
+export const SERIF =
+	'"Didot", "Bodoni 72", "Playfair Display", Georgia, "Times New Roman", serif';
+
 export const palette = {
 	ink: '#0b1020',
 	paper: '#0e1226',

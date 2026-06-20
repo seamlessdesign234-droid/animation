@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "remotion studio",
     "render": "remotion render",
-    "render:all": "node scripts/render-all.mjs"
+    "render:all": "node scripts/render-all.mjs",
+    "render:carousel": "node scripts/render-carousel.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.290",

@@ -6,6 +6,7 @@ const jobs = [
 	['MapTrip', 'out/map-trip.mp4'],
 	['SleepReel', 'out/sleep-reel.mp4'],
 	['CoffeeExplainer', 'out/coffee-explainer.mp4'],
+	['LookbookCarousel', 'out/lookbook.mp4'],
 ];
 
 for (const [id, out] of jobs) {
