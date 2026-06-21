@@ -59,7 +59,10 @@ export const RemotionRoot: React.FC = () => {
 				width={1080}
 				height={1920}
 				fps={30}
-				defaultProps={{src: staticFile('images/dress-1.jpeg')}}
+				defaultProps={{
+					src: staticFile('images/dress-1.jpeg'),
+					personSrc: staticFile('images/dress-1-person.png'),
+				}}
 			/>
 			<Composition
 				id="SummerDressesPhoto2"
@@ -68,7 +71,10 @@ export const RemotionRoot: React.FC = () => {
 				width={1080}
 				height={1920}
 				fps={30}
-				defaultProps={{src: staticFile('images/dress-2.jpeg')}}
+				defaultProps={{
+					src: staticFile('images/dress-2.jpeg'),
+					personSrc: staticFile('images/dress-2-person.png'),
+				}}
 			/>
 			<Composition
 				id="SummerDressesPhoto3"
@@ -77,7 +83,10 @@ export const RemotionRoot: React.FC = () => {
 				width={1080}
 				height={1920}
 				fps={30}
-				defaultProps={{src: staticFile('images/dress-3.jpeg')}}
+				defaultProps={{
+					src: staticFile('images/dress-3.jpeg'),
+					personSrc: staticFile('images/dress-3-person.png'),
+				}}
 			/>
 		</>
 	);
