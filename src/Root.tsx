@@ -1,4 +1,4 @@
-import {Composition} from 'remotion';
+import {Composition, staticFile} from 'remotion';
 import {AiAdoption} from './compositions/AiAdoption';
 import {MapTrip} from './compositions/MapTrip';
 import {SleepReel} from './compositions/SleepReel';
@@ -7,6 +7,7 @@ import {
 	SummerDressesCarousel,
 	SUMMER_DRESSES_CAROUSEL_DURATION,
 } from './compositions/SummerDressesCarousel';
+import {SummerDressesPhoto} from './compositions/SummerDressesPhoto';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -50,6 +51,33 @@ export const RemotionRoot: React.FC = () => {
 				width={1080}
 				height={1920}
 				fps={30}
+			/>
+			<Composition
+				id="SummerDressesPhoto1"
+				component={SummerDressesPhoto}
+				durationInFrames={1}
+				width={1080}
+				height={1920}
+				fps={30}
+				defaultProps={{src: staticFile('images/dress-1.jpeg')}}
+			/>
+			<Composition
+				id="SummerDressesPhoto2"
+				component={SummerDressesPhoto}
+				durationInFrames={1}
+				width={1080}
+				height={1920}
+				fps={30}
+				defaultProps={{src: staticFile('images/dress-2.jpeg')}}
+			/>
+			<Composition
+				id="SummerDressesPhoto3"
+				component={SummerDressesPhoto}
+				durationInFrames={1}
+				width={1080}
+				height={1920}
+				fps={30}
+				defaultProps={{src: staticFile('images/dress-3.jpeg')}}
 			/>
 		</>
 	);
