@@ -3,6 +3,10 @@ import {AiAdoption} from './compositions/AiAdoption';
 import {MapTrip} from './compositions/MapTrip';
 import {SleepReel} from './compositions/SleepReel';
 import {CoffeeExplainer} from './compositions/CoffeeExplainer';
+import {
+	SummerDressesCarousel,
+	SUMMER_DRESSES_CAROUSEL_DURATION,
+} from './compositions/SummerDressesCarousel';
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -37,6 +41,14 @@ export const RemotionRoot: React.FC = () => {
 				durationInFrames={600}
 				width={1920}
 				height={1080}
+				fps={30}
+			/>
+			<Composition
+				id="SummerDressesCarousel"
+				component={SummerDressesCarousel}
+				durationInFrames={SUMMER_DRESSES_CAROUSEL_DURATION}
+				width={1080}
+				height={1920}
 				fps={30}
 			/>
 		</>
